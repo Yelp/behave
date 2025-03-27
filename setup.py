@@ -91,7 +91,6 @@ setup(
         ':python_version=="3.3"': py33_extra,
     },
     # MAYBE-DISABLE: use_2to3
-    use_2to3= bool(python_version >= 3.0),
     license="BSD",
     classifiers=[
         "Development Status :: 4 - Beta",
